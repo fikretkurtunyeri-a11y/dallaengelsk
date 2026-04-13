@@ -816,15 +816,25 @@ body { font-family: 'Source Sans 3', sans-serif; background: var(--bg); color: v
       <li>how they help each other do their job</li>
       <li>similarities between Chang and Jai's friendship and what you consider a good friendship.</li>
     </ul>
-    <p style="font-size:0.88rem;font-weight:700;margin-bottom:14px">Write around 150 words.</p>
-    <div style="margin-bottom:18px;border-radius:8px;overflow:hidden;background:#000">
-      <video controls style="width:100%;display:block;max-height:420px" preload="metadata">
-        <source src="Task16.mp4" type="video/mp4">
-        <p style="padding:20px;color:white;text-align:center">⚠️ Video ikke funnet. Sørg for at <strong>Task16.mp4</strong> ligger i samme mappe som denne HTML-filen.</p>
-      </video>
-    </div>
-    <textarea class="writing-area" id="ans-t16" placeholder="Skriv teksten din her (ca. 150 ord)..." oninput="countWords(this,'wc16');autoSave()"></textarea>
-    <div class="word-counter" id="wc16">0 ord</div>
+   <p style="font-size:0.88rem;font-weight:700;margin-bottom:14px">
+Write around 150 words.
+</p>
+
+<div style="margin-bottom:18px;border-radius:8px;overflow:hidden;background:#000">
+  <video controls style="width:100%;display:block;max-height:420px" preload="metadata">
+    <source src="Task16.mp4" type="video/mp4">
+    <p style="padding:20px;color:white;text-align:center">
+      ⚠️ Video ikke funnet. Sjekk at Task16.mp4 ligger i samme mappe.
+    </p>
+  </video>
+</div>
+
+<textarea class="writing-area" id="ans-t16"
+  placeholder="Skriv teksten din her (ca. 150 ord)..."
+  oninput="countWords(this,'wc16');autoSave()">
+</textarea>
+
+<div class="word-counter" id="wc16">0 ord</div>
     <!-- Print block -->
     <div class="print-answer-block" id="print-t16">
       <div class="print-answer-label">Task 16 – Elevens svar:</div>
